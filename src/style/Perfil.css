@@ -1,0 +1,35 @@
+.container-logout{
+    @apply flex justify-end bg-white items-center h-16 absolute top-0 right-0 w-full;
+    
+}
+
+.logout{
+    @apply bg-purple flex justify-center items-center  w-96 h-10 size-5 text-white outline-none rounded-lg border-none mr-3;
+    
+}
+
+.container-perfil{
+    @apply w-full h-screen flex flex-col  justify-center items-center md:w-screen;
+}
+
+.perfil{
+    @apply  w-auto bg-white p-8 h-auto flex flex-col justify-center items-center gap-8 rounded-2xl md:w-full md:h-full md:rounded-none;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-input-label{
+    @apply flex flex-col  content-baseline gap-1 md:w-72  ;
+    width: 385.88px;
+}
+
+.container-input-label label{
+    @apply w-auto;
+    font-size:18px;
+    color: rgba(38, 38, 38, 1);
+}
+
+.container-input-label input{
+    @apply  w-96 h-14 size-5 rounded-lg outline-none md:w-72;
+    padding: 18px 18px 20.25px 18px;
+    background: rgba(241, 241, 241, 1);
+}
